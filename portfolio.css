@@ -1,0 +1,134 @@
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: url('2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(214, 215, 226);
+  margin: 0px 200px;
+  padding: 10px;
+  box-shadow: rgba(0,0,0,0.15) 1.95px 1.95px 2.6px;
+  border-radius: 7px;
+}
+
+.nav .logo img{
+  width: 100px;
+  background-color: rgb(214, 215, 226);
+  background: transparent url(download.png) no-repeat center;
+}
+
+.nav .links
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.but{
+  border-radius: 10px;
+}
+.nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+.nav ul li a{
+ text-decoration: none;
+ margin-right: 20PX;
+ color: black;
+ font-weight: 800;
+ text-decoration:underline ;
+ text-transform: uppercase;
+}
+
+.nav .links button{
+  padding: 10px 10px;
+  background: black;
+  color: rgb(71, 132, 165);
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.main-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   padding: 80px;
+   margin:0px 150px ;
+   margin-top:50px ;
+   background: rgb(225, 210, 210);
+   box-shadow: 1px 10px 40px rgb(122, 35, 35);
+   backdrop-filter: blur(7px);
+   margin-bottom: 30px;
+   border-radius: 10px;
+}
+.content .right img{
+  width: 300px;
+  position: relative;
+  left: 40px;
+  
+}
+
+.content .left h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(14, 14, 14);
+  font-family:'Times New Roman', Times, serif ;
+}
+
+.content .left h1{
+  font-size: 250%;
+  
+  color: #686363; 
+  
+}
+
+.content .left img{
+
+  width: 30px;
+  height: 25px;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(169, 169, 215);
+  font-weight: 600;
+  color: rgb(19, 19, 27);
+  border-radius: 5px;
+}
+
+ .left .butt{
+
+  width: 100px;
+  height: 25px;
+  margin-left: 20px;
+  margin-top: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(4, 4, 105);
+  font-weight: 600;
+  color: rgb(227, 227, 239);
+  border-radius: 5px;
+  
+}
